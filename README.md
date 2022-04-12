@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Simple Accordion in React JS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Online Preview : https://profound-parfait-976c66.netlify.app
+
+##
 
 ## Available Scripts
 
