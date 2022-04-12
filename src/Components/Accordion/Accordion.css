@@ -1,0 +1,62 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 34px;
+    margin: 50px;
+}
+
+.accordion {
+    max-width: 400px;
+    height: auto;
+    margin: 50px auto 0;
+    border-radius: 3px;
+}
+
+.accordion-visible {
+    background: rgb(71, 77, 155);
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    border: 1px solid rgba(71, 77, 155);
+}
+
+.accordion-visible img {
+    width: 30px;
+}
+
+.accordion-visible h2 {
+    font-size: 20px;
+}
+
+.accordion-toggle {
+    font-size: 14px;
+    opacity: 0;
+    background: rgb(245, 245, 245);
+    border: 1px solid rgba(71, 77, 155, .2);
+    transition: 
+    opacity .4s ease-in-out, 
+    height .4s .4s ease-in-out;
+}
+
+.animated {
+    opacity: 1;
+    transition: 
+    height .4s ease-in-out, 
+    opacity .4s .4s ease-in-out;
+}
+
+.accordion-toggle p {
+    margin: 0;
+    padding: 15px 20px;
+    pointer-events: none;
+    line-height: 1.4;
+}
